@@ -1,0 +1,32 @@
+
+public class Nurse {
+
+    private final String nurseID;
+    private final int type;
+    private final double employmentRate;
+    private int [][] preferences;
+    
+    public Nurse(String thisNurseID,int[][] thisPreferences, int thisType, double thisEmploymentRate){
+    
+    this.nurseID = thisNurseID;
+    this.preferences = thisPreferences;
+    this.type = thisType;
+    this.employmentRate = thisEmploymentRate;
+    }
+
+    public String getNurseID() {
+        return nurseID;
+    }
+
+    public int getType() {
+        return type;
+    }
+
+    public double getEmploymentRate() {
+        return employmentRate;
+    }
+
+    public int[][] getPreferences() {
+        return preferences;
+    }
+    
