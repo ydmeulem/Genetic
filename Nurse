@@ -28,6 +28,4 @@ public class Nurse {
 
     public int[][] getPreferences() {
         return preferences;
-    }
-    
-opnieuw proberen
+    }    
